@@ -29,4 +29,4 @@ if ingredients_list and name_on_order:
     
     if time_to_insert:
         session.sql(my_insert_stmt).collect()
-        st.success('Your ' +name_on_order+ 'is ordered!', icon="✅")
+        st.success('Your ' +name_on_order+ ' is ordered!', icon="✅")
