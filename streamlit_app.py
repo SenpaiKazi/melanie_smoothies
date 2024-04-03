@@ -28,7 +28,7 @@ if ingredients_list and name_on_order:
     for each_fruit in ingredients_list:
         ingredients += each_fruit + ' '
         
-        st.subheader(each_fruit + ' Nutrition Information)
+        st.subheader(each_fruit + ' Nutrition Information')
 
         fv_respo = requests.get("https://fruityvice.com/api/fruit/" + each_fruit)
 
